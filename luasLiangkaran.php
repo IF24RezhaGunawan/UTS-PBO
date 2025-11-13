@@ -17,7 +17,7 @@ class LuasLingkaran {
 }
 
 $lingkaran = new LuasLingkaran();
-$lingkaran->jari = 12;
+$lingkaran->jari = 5;
 $lingkaran->tampil('roda'); //panggil method tampil
 
 LuasLingkaran::testing(); //panggil static method

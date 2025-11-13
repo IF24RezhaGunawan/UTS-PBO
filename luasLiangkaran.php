@@ -7,7 +7,7 @@ class LuasLingkaran {
 }
 
 $lingkaran = new LuasLingkaran();
-$lingkaran->jari = 12;
+$lingkaran->jari = 5;
 
 $rumus = LuasLingkaran::phi * ($lingkaran->jari * $lingkaran->jari);
 echo "Hasilnya adalah: ".$rumus;
